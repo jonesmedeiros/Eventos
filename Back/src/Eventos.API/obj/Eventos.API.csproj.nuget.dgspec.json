@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj": {}
+    "c:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj": {
+    "c:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj",
+        "projectUniqueName": "c:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj",
         "projectName": "Eventos.API",
-        "projectPath": "C:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj",
+        "projectPath": "c:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\Eventos.API.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\obj\\",
+        "outputPath": "c:\\Users\\Usuário\\Jones-Documentos\\03_ProjetosCs\\WebAPI\\Eventos\\Back\\src\\Eventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +43,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -56,7 +74,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
